@@ -10,7 +10,7 @@
 
       "use": "@vercel/python",
 
-      "config": { "maxLambdaSize":  "15mb", "runtime":  "python3.9" }
+      "config": { "maxLambdaSize":  "15mb", "runtime":  "python3.12" }
 
     }
 
@@ -22,7 +22,7 @@
 
       "src": "/(.*)",
 
-      "dest": "openmotor_back/wsgi.py",
+      "dest": "Week4/wsgi.py",
 
       "headers": {
 
@@ -38,7 +38,7 @@
 
       "src": "/(.*)",
 
-      "dest": "openmotor_back/wsgi.py"
+      "dest": "Week4/wsgi.py"
 
     }
 
